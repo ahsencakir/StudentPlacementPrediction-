@@ -11,6 +11,27 @@ Bu veri setini seçmemizin başlıca nedenleri şunlardır:
 - **Makine Öğrenmesi Uygunluğu:** Hem sayısal hem kategorik veriler içerdiğinden çeşitli algoritmalarla etkili biçimde çalıştırılabilir.
 
 ---
+Aşağıda her sütunun (özelliğin) anlamı açıklanmıştır:
+
+    CGPA: Öğrencinin genel not ortalamasını (Cumulative Grade Point Average) ifade eder. Akademik başarısını gösterir.
+
+    Internships (Stajlar): Öğrencinin yaptığı staj sayısını gösterir. Gerçek dünya deneyimi kazandığını gösterir.
+
+    Projects (Projeler): Öğrencinin gerçekleştirdiği proje sayısı. Teknik bilgi ve uygulama becerisini gösterir.
+
+    Workshops/Certifications (Atölyeler/Sertifikalar): Öğrencinin çevrim içi kurslar ya da sertifika programlarına katılımını ifade eder. Kendini geliştirme isteğini gösterir.
+
+    ApptitudeTestScore (Yetenek Testi Skoru): Öğrencinin sayısal ve mantıksal düşünme yeteneğini ölçen sınavdan aldığı puandır. İşe alım sürecinde önemli bir yer tutar.
+
+    SoftSkillRating (İletişim Becerisi Değerlendirmesi): Öğrencinin iletişim, takım çalışması gibi sosyal becerilerdeki yeterliliğini gösterir.
+
+    ExtraCurricularActivities (Sosyal Etkinlikler): Akademik olmayan alanlardaki faaliyetlere katılımı gösterir (spor, kulüp, gönüllülük vs.). Öğrencinin çok yönlü kişiliği hakkında bilgi verir.
+
+    PlacementTraining (Yerleştirme Eğitimi): Üniversitenin öğrencilere verdiği işe yerleştirme süreciyle ilgili özel eğitimlerdir.
+
+    SSC ve HSC (Lise ve Ortaokul Notları): Öğrencinin lise (Higher Secondary Certificate - HSC) ve ortaokul (Senior Secondary Certificate - SSC) dönemlerindeki başarı puanlarıdır.
+
+    PlacementStatus (Yerleştirme Durumu): Bu, hedef (target) sütundur. İki sınıf içerir: "placed" (işe yerleşmiş) ve "not placed" (işe yerleşmemiş).
 
 ## ⚙️ Özellik Seçim Yöntemleri
 

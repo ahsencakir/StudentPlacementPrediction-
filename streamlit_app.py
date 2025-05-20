@@ -53,11 +53,11 @@ gender_encoding = {'Erkek (Male)': 1, 'Kadın (Female)': 0}
 # --- ÖRNEK INPUTLAR ---
 example_inputs = {
     'Yerleşemeyecek Öğrenci': {
-        'AptitudeTestScore': 50,
-        'HSC_Marks': 50,
+        'AptitudeTestScore': 30,
+        'HSC_Marks': 30,
         'Projects': 0,
         'ExtracurricularActivities': 0,
-        'SSC_Marks': 50,
+        'SSC_Marks': 30,
         'SoftSkillsRating': 2,
         'CGPA': 3,
         'Workshops/Certifications': 0,
@@ -74,7 +74,7 @@ example_inputs = {
         'CGPA': 8.9,
         'Workshops/Certifications': 2,
         'PlacementTraining': 1,
-        'Internships': 0
+        'Internships': 2
     }
 }
 

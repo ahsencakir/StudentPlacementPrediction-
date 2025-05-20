@@ -160,20 +160,5 @@ if st.button("📊 Tahmin Et"):
 
     if prediction in label_map_result:
         st.success(f"✅ Tahmin Sonucu: **{label_map_result[prediction]}**")
-
-        # Modelin hangi sınıfı neden seçtiğini yaz
-        selected_class = model.classes_[prediction]
-        selected_proba = prediction_proba[prediction]
-
-        st.info(f"🧠 Model, **'{label_map_result[selected_class]}'** sınıfını **{selected_proba:.2%}** olasılıkla seçti.")
-        
-        # Olasılık grafiği (isteğe bağlı)
-        st.subheader("🔍 Olasılık Dağılımı")
-        proba_df = pd.DataFrame({
-            'Sınıf': [label_map_result.get(i, str(i)) for i in model.classes_],
-            'Olasılık': prediction_proba
-        })
-        st.bar_chart(proba_df.set_index('Sınıf'))
-
     else:
         st.error(f"❌ Beklenmeyen tahmin değeri: {prediction}")

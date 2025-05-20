@@ -4,6 +4,21 @@ import joblib
 
 # Model dosya yolları
 model_paths = {
+    'Logistic Regression': {
+        'SelectKBest': 'models/model_LogisticRegression_SelectKBest.pkl',
+        'RFE': 'models/model_LogisticRegression_RFE.pkl',
+        'Mutual Information': 'models/model_LogisticRegression_MutualInformation.pkl'
+    },
+    'Decision Tree': {
+        'SelectKBest': 'models/model_DecisionTree_SelectKBest.pkl',
+        'RFE': 'models/model_DecisionTree_RFE.pkl',
+        'Mutual Information': 'models/model_DecisionTree_MutualInformation.pkl'
+    },
+    'Random Forest': {
+        'SelectKBest': 'models/model_RandomForest_SelectKBest.pkl',
+        'RFE': 'models/model_RandomForest_RFE.pkl',
+        'Mutual Information': 'models/model_RandomForest_MutualInformation.pkl'
+    },
     'SVM': {
         'SelectKBest': 'models/model_SVM_SelectKBest.pkl',
         'RFE': 'models/model_SVM_RFE.pkl',

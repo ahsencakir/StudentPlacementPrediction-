@@ -21,12 +21,12 @@ feature_sets = {
 # TR-EN etiket eşleşmeleri
 label_map = {
     'AptitudeTestScore': "Yetenek Testi Puanı",
-    'HSC_Marks': "Lise Not Ortalaması", 
+    'HSC_Marks': "Lise Not Ortalaması (HSC)", 
     'Projects': "Proje Sayısı",
     'ExtracurricularActivities': "Ekstra Aktiviteler",
-    'SSC_Marks': "Ortaokul Not Ortalaması",
+    'SSC_Marks': "Ortaokul Not Ortalaması (SSC)",
     'SoftSkillsRating': "İletişim Beceri Puanı",
-    'CGPA': "Genel Not Ortalaması",
+    'CGPA': "Genel Not Ortalaması (GPA)",
     'Workshops/Certifications': "Atölye/Sertifika Sayısı",
     'PlacementTraining': "Yerleştirme Eğitimi",
     'Internships': "Staj Sayısı"
